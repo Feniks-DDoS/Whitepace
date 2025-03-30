@@ -1,0 +1,130 @@
+.hero {
+
+    background-image: url(../../icons/heroElement.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (max-width: 870px) {
+        background-image: url(../../icons/mobileHeroElement.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+     }
+    &__section {
+        background-color: var(--blue-dark-color);
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 870px) {
+           flex-direction: column;
+           text-align: center;
+        }
+    }
+
+
+    &__title {
+        animation-name: titleAnimation;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+
+    }
+
+    @keyframes titleAnimation {
+        from {
+           opacity: 0;
+            transform: translateY(-35%);
+        }
+
+        to {
+           opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    &__subtitle {
+      
+
+        animation-name: subtitleAnimation;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+
+    @keyframes subtitleAnimation {
+        from {
+           opacity: 0;
+            transform: translateY(35%);
+        }
+
+        to {
+           opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
+    &__button {
+        padding: var(--big-button-padding);
+        background-color: var(--blue-light-color);
+        color: var(--light-color);
+
+        animation-name: buttonAnimation;
+        animation-duration: 1s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+
+        @media (max-width: 870px) {
+            margin-bottom: 6.25rem;
+         }
+
+    }
+
+    @keyframes buttonAnimation {
+        from {
+            opacity: 0;
+            transform: translateX(-35%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+    &__image {
+        border-radius: var(--button-radius);
+
+        animation-name: imageAnimation;
+        animation-duration: 2s;
+        animation-delay: 3s;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+
+        @include tablet {
+            width: 526px;
+            height: 350px;
+        }
+
+        @media (max-width: 500px) {
+            height: 191px;
+            width: 286px;
+        }
+    }
+
+    @keyframes imageAnimation {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    &__bullshit {
+        max-width: 656px;
+    }
+}

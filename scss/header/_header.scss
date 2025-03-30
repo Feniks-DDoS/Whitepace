@@ -1,0 +1,103 @@
+.header {
+    background-color: var(--blue-dark-color);
+
+    padding-block: 1rem;
+    &__navigation {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+}
+
+.navigation {
+
+    &__end {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        gap: 3.4375rem;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 3.75rem;
+
+        @include tablet {
+            display: none;
+        }
+    }
+
+    &__link {
+        color: var(--light-color);
+        position: relative;
+
+        &::after {
+           content: "";
+           position: absolute;
+           width: 40px;
+           height: 50px;
+           background: url(../../icons/Down\ Arrow.svg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: contain;
+           top: -50%;
+           right: -60%;
+           transition: var(--transition-duration);
+           }
+          
+        @include hover {
+            &:hover::after {
+                transform: rotate(90deg);
+            }
+        }
+       
+    }
+
+    &__button-small {
+        padding: var(--small-button-padding);
+        color: var(--blue-dark-color);
+        background-color: var(--yelow-color);
+  
+
+        
+    }
+
+    &__button-big {
+        padding: var(--big-button-padding);
+        background-color: var(--blue-light-color);
+        color: var(--light-color);
+
+        
+    }
+}
+.burger-button {
+   @include reset-button;
+   @include square(84px);
+
+   position: relative;
+   transition: var(--transition-duration);
+   border-radius: var(--button-radius);
+   @include hover {
+     &:hover {
+        background-color: var(--blue-light-color);
+     }
+   }
+
+   @media (max-width: 500px) {
+       @include square(50px);
+   }
+
+   &::after {
+    @include abs-center;
+    content: "";
+    width: 50%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--light-color);
+    box-shadow: 0 -12px rgba($color: #FFF, $alpha: 1.0), 0 12px rgba($color: #FFF, $alpha: 1.0);
+   }
+
+}
+
+

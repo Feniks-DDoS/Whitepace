@@ -1,0 +1,114 @@
+.tablet-overlay {
+    width: 100%;
+    margin: 0;
+    border: none;
+    height: 100%;
+    background-color: var(--blue-dark-color);
+
+    &:modal {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        min-height: 70dvh;
+    }
+
+    &__link {
+        color: var(--light-color);
+        filter: drop-shadow(0px 1px 2px rgba(0 0 0 ));
+        @include fluid-text(24, 18);
+        font-weight: 700;
+
+        @include hover {
+            &:hover {
+                scale: 1.3;
+            }
+        }
+
+    }
+
+    &__close-button-wrapper {
+        display: flex;
+        justify-content: end;
+    }
+
+    &__button--small {
+        padding: var(--small-button-padding);
+        border: none;
+        color: var(--blue-dark-color);
+        border-radius: var(--button-radius);
+        background-color: var(--yelow-color);
+        font-weight: 500;
+        line-height: 127%;
+        letter-spacing: -0.36px;
+        @include fluid-text(18, 18);
+        transition: var(--transition-duration);
+
+        @include hover {
+            &:hover {
+                opacity: 0.7;
+                scale: 1.1;
+            }
+        }
+    }
+    &__button--big {
+        border: none;
+        border-radius: var(--button-radius);
+        padding: var(--big-button-padding);
+        background-color: var(--blue-light-color);
+        color: var(--light-color);
+        font-weight: 500;
+        line-height: 127%;
+        letter-spacing: -0.36px;
+        @include fluid-text(18, 18);
+
+        @include hover {
+            &:hover {
+                opacity: 0.7;
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+.cross-button {
+    @include reset-button;
+    @include square(84px);
+    
+    position: relative;
+    transition: var(--transition-duration);
+    border-radius: var(--button-radius);
+    
+    @include hover {
+        &:hover {
+            background-color: var(--blue-light-color);
+        }
+    }
+    
+   &::before,
+   &::after {
+    content: "";
+    position: absolute;
+    top: 38px;
+    left: 13px;
+    width: 70%;
+    height: 3px;
+    background-color: var(--light-color);
+    border-radius: 3px;
+   }
+
+   &::before {
+    rotate: 45deg;
+   }
+
+   &::after {
+    rotate: -45deg;
+   }
+}
+
