@@ -145,6 +145,12 @@
         column-gap: 6px;
     }
 
+    &__link {
+        @include hover {
+            color: #FFE492;
+            transform: translateY(-5px);
+        }
+    }
     &__link-location {
         position: relative;
 
@@ -211,5 +217,11 @@
         }
     }
 
+    &__end-link {
+        @include hover {
+            scale: 1.2;
+            opacity: 0.8;
+        }
+    }
 
 }

@@ -443,7 +443,7 @@ svg * {
   position: absolute;
   width: 40px;
   height: 50px;
-  background: url(../icons/Down\ Arrow.svg);
+  background: url(../../icons/Down\ Arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -657,14 +657,14 @@ svg * {
 }
 
 .hero {
-  background-image: url(../icons/heroElement.svg);
+  background-image: url(../../icons/heroElement.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 870px) {
   .hero {
-    background-image: url(../icons/mobileHeroElement.svg);
+    background-image: url(../../icons/mobileHeroElement.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -862,7 +862,7 @@ svg * {
   left: -5%;
   width: 602px;
   height: 442px;
-  background-image: url(../icons/projectBACKGROUND.svg);
+  background-image: url(../../icons/projectBACKGROUND.svg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -922,7 +922,7 @@ svg * {
   left: 0;
   width: 100%;
   height: 29px;
-  background-image: url(../icons/projectSpan.svg);
+  background-image: url(../../icons/projectSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1064,7 +1064,7 @@ svg * {
   width: 100%;
   height: 28px;
   z-index: -1;
-  background-image: url(../icons/Work-togetherSpan.svg);
+  background-image: url(../../icons/Work-togetherSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1206,7 +1206,7 @@ svg * {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../icons/projectSpan.svg);
+  background-image: url(../../icons/projectSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1377,7 +1377,7 @@ svg * {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../icons/CustomSpan.svg);
+  background-image: url(../../icons/CustomSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1475,7 +1475,7 @@ svg * {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../icons/chooseYourPlanSpan.svg);
+  background-image: url(../../icons/chooseYourPlanSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1529,7 +1529,7 @@ svg * {
     border: none;
   }
   .card:hover:hover .card__item::before {
-    background-image: url(../icons/ChoosecardYelowIcon.svg);
+    background-image: url(../../icons/ChoosecardYelowIcon.svg);
   }
 }
 @media (hover: none) {
@@ -1548,7 +1548,7 @@ svg * {
     border: none;
   }
   .card:active:hover .card__item::before {
-    background-image: url(../icons/ChoosecardYelowIcon.svg);
+    background-image: url(../../icons/ChoosecardYelowIcon.svg);
   }
 }
 .card__price {
@@ -1579,7 +1579,7 @@ svg * {
   top: 0;
   width: 18px;
   height: 18px;
-  background-image: url(../icons/ChooseCardIcon.svg);
+  background-image: url(../../icons/ChooseCardIcon.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1638,7 +1638,7 @@ svg * {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(../icons/ChoosecardYelowIcon.svg);
+  background-image: url(../../icons/ChoosecardYelowIcon.svg);
 }
 .tablet-swipper__card {
   color: var(--light-color);
@@ -1666,7 +1666,7 @@ svg * {
   top: 0;
   width: 680px;
   height: 691px;
-  background-image: url(../icons/EverywhereBACKGROUND.svg);
+  background-image: url(../../icons/EverywhereBACKGROUND.svg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1728,7 +1728,7 @@ svg * {
   right: 0;
   left: 0;
   z-index: -1;
-  background-image: url(../icons/EverywhereSpan.svg);
+  background-image: url(../../icons/EverywhereSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1812,7 +1812,7 @@ svg * {
   right: 0;
   width: 100%;
   height: 36px;
-  background-image: url(../icons/yourDataSpansvg.svg);
+  background-image: url(../../icons/yourDataSpansvg.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1851,7 +1851,7 @@ svg * {
   right: 0;
   width: 100%;
   height: 36px;
-  background-image: url(../icons/sposnorSpan.svg);
+  background-image: url(../../icons/sposnorSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1918,14 +1918,14 @@ svg * {
 }
 
 .favorite-app {
-  background-image: url(../icons/FavoriteAppBack.svg);
+  background-image: url(../../icons/FavoriteAppBack.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 @media (max-width: 870px) {
   .favorite-app {
-    background-image: url(../icons/mobileFavorite-appBack.svg);
+    background-image: url(../../icons/mobileFavorite-appBack.svg);
     background-size: cover;
   }
 }
@@ -2059,7 +2059,7 @@ svg * {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../icons/ClientSpan.svg);
+  background-image: url(../../icons/ClientSpan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2097,7 +2097,7 @@ svg * {
   left: 40px;
   width: 86px;
   height: 61px;
-  background-image: url(../icons/clientdefaultcard.svg);
+  background-image: url(../../icons/clientdefaultcard.svg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2111,7 +2111,7 @@ svg * {
             box-shadow: 15px 10px 50px rgb(0, 0, 0);
   }
   .client__card:hover::before {
-    background-image: url(../icons/clientHoverCard.svg);
+    background-image: url(../../icons/clientHoverCard.svg);
   }
   .client__card:hover .client__card-review {
     border-bottom-color: var(--dark-color);
@@ -2129,7 +2129,7 @@ svg * {
             box-shadow: 15px 10px 50px rgb(0, 0, 0);
   }
   .client__card:active::before {
-    background-image: url(../icons/clientHoverCard.svg);
+    background-image: url(../../icons/clientHoverCard.svg);
   }
   .client__card:active .client__card-review {
     border-bottom-color: var(--dark-color);
@@ -2268,6 +2268,28 @@ svg * {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+}
+.try__image {
+  -webkit-transition: scale, opacity, var(--transition-duration), -webkit-filter;
+  transition: scale, opacity, var(--transition-duration), -webkit-filter;
+  transition: scale, opacity, filter, var(--transition-duration);
+  transition: scale, opacity, filter, var(--transition-duration), -webkit-filter;
+}
+@media (hover: hover) {
+  .try__image:hover {
+    scale: 1.1;
+    opacity: 0.8;
+    -webkit-filter: drop-shadow(10px 15px 50px rgba(255, 255, 255, 0.5));
+            filter: drop-shadow(10px 15px 50px rgba(255, 255, 255, 0.5));
+  }
+}
+@media (hover: none) {
+  .try__image:active {
+    scale: 1.1;
+    opacity: 0.8;
+    -webkit-filter: drop-shadow(10px 15px 50px rgba(255, 255, 255, 0.5));
+            filter: drop-shadow(10px 15px 50px rgba(255, 255, 255, 0.5));
   }
 }
 
@@ -2472,6 +2494,20 @@ svg * {
      -moz-column-gap: 6px;
           column-gap: 6px;
 }
+@media (hover: hover) {
+  .copyright__link:hover {
+    color: #FFE492;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+@media (hover: none) {
+  .copyright__link:active {
+    color: #FFE492;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
 .copyright__link-location {
   position: relative;
 }
@@ -2480,7 +2516,7 @@ svg * {
   position: absolute;
   width: 40px;
   height: 50px;
-  background: url(../icons/Down\ Arrow.svg);
+  background: url(../../icons/Down\ Arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2553,6 +2589,18 @@ svg * {
   .copyright__end-list {
     -ms-grid-column-align: center;
         justify-self: center;
+  }
+}
+@media (hover: hover) {
+  .copyright__end-link:hover {
+    scale: 1.2;
+    opacity: 0.8;
+  }
+}
+@media (hover: none) {
+  .copyright__end-link:active {
+    scale: 1.2;
+    opacity: 0.8;
   }
 }
 /*# sourceMappingURL=style.css.map */
