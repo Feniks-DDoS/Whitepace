@@ -1,0 +1,64 @@
+.try {
+    background-color: var(--blue-dark-color);
+
+    &__section {
+        padding-bottom: 2rem;
+    }
+
+ 
+
+    &__container {
+          
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        @include tablet {
+            text-align: start;
+            justify-content: start;
+        }
+
+        animation-name: tryAnimation;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        animation-timeline: view(90% 5%);
+    }
+
+    @keyframes  tryAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(200px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    &__content-wrapper {
+        max-width: 608px;
+    }
+    &__button {
+        background-color: var(--blue-light-color);
+        padding: var(--small-button-padding);
+        color: var(--light-color);
+    }
+
+    &__subtitle,
+    &__button,
+    &__bullshit {
+        margin-bottom: 2.5rem;
+    }
+
+    &__image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2.5rem;
+
+        @include tablet {
+         justify-content: start;
+        }
+    }
+}
